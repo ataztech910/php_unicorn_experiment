@@ -9,9 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-        TestComponent();
-    ?>
+    <?php TestComponent(); ?>
     <a href="#" onclick="getComponent('test', 2);">click</a>
 <script>
     let xhttp = new XMLHttpRequest();
